@@ -1,0 +1,24 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_module('cgamemac', ['network', 'wifi'])
+    obj.source = [
+    	'helper/cgamemac-helper.cc',
+    	'helper/cgamemac-mac-helper.cc',
+    	'model/cgamemac-mac.cc',
+    	'model/cgamemac-net-device.cc',
+     	'model/cgamemac-header.cc',
+        ]
+
+ 
+    headers = bld(features='ns3header')
+    headers.module = 'cgamemac'
+    headers.source = [
+    	'helper/cgamemac-helper.h',
+    	'helper/cgamemac-mac-helper.h',
+    	'model/cgamemac-mac.h',
+    	'model/cgamemac-net-device.h',
+    		'model/cgamemac-header.h',
+        ]
+
+    bld.ns3_python_bindings() 

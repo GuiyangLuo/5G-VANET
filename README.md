@@ -1,8 +1,8 @@
 # 5G-VANET
-The codes for 5G assisted software defined vehicular network for cooperative data sharing. This code is only for peer review! Once the paper is accepted, we will update this repository.
+The codes for 5G assisted software defined vehicular network for cooperative data sharing. The code is only for peer code review! Once the paper is accepted, we will update this repository.
 
 # Requirements: software
-NOTE Only tested on NS3.21!
+NOTE: Only tested on NS3.21!
 1.	Requirements for SUMO and NS3.21;
 If you have any problem on installation and compiling, please referred to [NS3](https://www.nsnam.org/documentation/) and [SUMO](http://sumo.dlr.de/index.html).
 #  Requirements: hardware

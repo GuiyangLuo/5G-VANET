@@ -1,5 +1,5 @@
 # 5G-VANET
-The codes for 5G assisted software defined vehicular network for cooperative data sharing. Only for peer code review! Once the paper is accepted, we will update this repository.
+The codes for 5G assisted software defined vehicular network for cooperative data sharing. Only for peer code review!
 
 # Requirements: software
 NOTE: Only tested on NS3.21!
@@ -10,7 +10,7 @@ NS3 can be executed both in Windows and Linux system. However, our operating sys
 # Installation
 1.	Clone the 5G VANET repository;
 2.	Replace the WiFi module with this new module;
-3.	Install two module cgame and cgamemac (the codes is located in src/)
+3.	Install two module cgame and cgamemac (the codes are located in src/)
 4.	Compile the NS3.21 environment by following command:
 
     ./waf build

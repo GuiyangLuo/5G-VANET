@@ -1,5 +1,5 @@
 # 5G-VANET
-The codes for 5G assisted software defined vehicular network for cooperative data sharing. Only for peer code review!
+The codes for [Software-Defined Cooperative Data Sharing in Edge Computing Assisted 5G-VANE](https://ieeexplore.ieee.org/abstract/document/8897045). 
 
 # Requirements: software
 NOTE: Only tested on NS3.21!
